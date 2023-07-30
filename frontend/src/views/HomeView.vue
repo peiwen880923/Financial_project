@@ -44,7 +44,7 @@
               <td>{{ product.productName }}</td>
               <td>{{ product.productPrice }}</td>
               <td>{{ product.feeRate }}</td>
-              <td>{{ product.productPrice * product.quantity }}</td>
+              <td>{{ product.productPrice * product.quantity+product.feeRate * product.productPrice * product.quantity }}</td>
               <td>{{ product.feeRate * product.productPrice * product.quantity }}</td>
               <td>{{ product.account }}</td>
               <td>{{ product.email }}</td>
